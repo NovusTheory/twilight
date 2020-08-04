@@ -10,6 +10,7 @@ pub struct MessageUpdate {
     pub attachments: Option<Vec<Attachment>>,
     pub author: Option<User>,
     pub channel_id: ChannelId,
+    pub guild_id: Option<GuildId>,
     pub content: Option<String>,
     pub edited_timestamp: Option<String>,
     pub embeds: Option<Vec<Embed>>,

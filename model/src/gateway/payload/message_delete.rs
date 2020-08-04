@@ -5,4 +5,5 @@ use serde::{Deserialize, Serialize};
 pub struct MessageDelete {
     pub channel_id: ChannelId,
     pub id: MessageId,
+    pub guild_id: Option<GuildId>,
 }
