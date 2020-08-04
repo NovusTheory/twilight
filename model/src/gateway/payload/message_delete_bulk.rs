@@ -1,4 +1,4 @@
-use crate::id::{ChannelId, MessageId};
+use crate::id::{ChannelId, MessageId, GuildId};
 use serde::{Deserialize, Serialize};
 
 #[derive(Clone, Debug, Deserialize, Eq, Hash, PartialEq, Serialize)]

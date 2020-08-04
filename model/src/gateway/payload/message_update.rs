@@ -1,6 +1,6 @@
 use crate::{
     channel::{embed::Embed, message::MessageType, Attachment},
-    id::{ChannelId, MessageId, RoleId},
+    id::{ChannelId, MessageId, RoleId, GuildId},
     user::User,
 };
 use serde::{Deserialize, Serialize};
