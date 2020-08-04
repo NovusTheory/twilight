@@ -41,11 +41,11 @@ pub enum EventType {
     PresencesReplace,
     #[serde(rename = "MESSAGE_REACTION_ADD")]
     ReactionAdd,
-    #[serde(rename = "REACTION_REMOVE")]
+    #[serde(rename = "MESSAGE_REACTION_REMOVE")]
     ReactionRemove,
-    #[serde(rename = "REACTION_REMOVE_ALL")]
+    #[serde(rename = "MESSAGE_REACTION_REMOVE_ALL")]
     ReactionRemoveAll,
-    #[serde(rename = "REACTION_REMOVE_EMOJI")]
+    #[serde(rename = "MESSAGE_REACTION_REMOVE_EMOJI")]
     ReactionRemoveEmoji,
     Ready,
     Resumed,
